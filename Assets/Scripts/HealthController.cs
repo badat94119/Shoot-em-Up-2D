@@ -54,7 +54,7 @@ public class HealthController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        StartCoroutine(ActivateInvincibility());
     }
 
     // Update is called once per frame

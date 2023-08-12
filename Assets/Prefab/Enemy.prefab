@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 4005911258897536800}
   - component: {fileID: 198808675715864209}
   - component: {fileID: -7209364525948516658}
-  - component: {fileID: -2712788613204785337}
   - component: {fileID: 7896266416648623454}
-  - component: {fileID: 7529848060226814687}
+  - component: {fileID: 5491622390234446741}
+  - component: {fileID: 708648797494649145}
+  - component: {fileID: 5415591601832515001}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -88,20 +89,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba09bad23f0b8de4baa92ed00d666ef0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-2712788613204785337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4005911258897536830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56c5b8fe8284c60459af0aa8b2b719c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentHealth: 5
-  maximumHealth: 5
 --- !u!114 &7896266416648623454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,7 +102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 0
---- !u!114 &7529848060226814687
+--- !u!114 &5491622390234446741
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,9 +111,36 @@ MonoBehaviour:
   m_GameObject: {fileID: 4005911258897536830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a83536ae39455614d9cef900741b6971, type: 3}
+  m_Script: {fileID: 11500000, guid: 56c5b8fe8284c60459af0aa8b2b719c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentHealth: 5
+  maximumHealth: 5
+--- !u!114 &708648797494649145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4005911258897536830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 875cffe46df769a45a2b4fff78e37616, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5415591601832515001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4005911258897536830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5709d857adb5e5f41bdb652d3e2bbab3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _invincibilityDuration: 50
 --- !u!1 &4005911259226111773
 GameObject:
   m_ObjectHideFlags: 0
