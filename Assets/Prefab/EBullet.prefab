@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 997aed01c98689b43a14921f6edb2ccb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9a403c7e91514b045bfbebccf680dd60, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -95,9 +95,9 @@ GameObject:
   - component: {fileID: 1393489835695612388}
   - component: {fileID: 1309153935819421075}
   - component: {fileID: -2058234298839424668}
-  - component: {fileID: 2678356823023057405}
+  - component: {fileID: 6635483803998866896}
   m_Layer: 0
-  m_Name: Bullet
+  m_Name: EBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -178,10 +178,10 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0002, y: 0.003}
-  m_Size: {x: 0.04, y: 0.16}
+  m_Offset: {x: 0.0014684908, y: -0.05929032}
+  m_Size: {x: 0.056684904, y: 0.15332603}
   m_Direction: 0
---- !u!114 &2678356823023057405
+--- !u!114 &6635483803998866896
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1393489835695612391}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a6a1b5b74be2b947a54e20fca3eee48, type: 3}
+  m_Script: {fileID: 11500000, guid: 9aae8c6e417a6964eba19aec05845718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAmount: 1
+  damageAmount: 10
